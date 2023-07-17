@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/about_skshivam"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/fun_here")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEFAULTER_CHANNEL"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/YAAR_SAARE_DEFAULTER")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/fun_here")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/YAAR_SAARE_DEFAULTER")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ʂɧı۷ąɱ](https://t.me/itsz_shivam)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝙎𝙒𝘼𝙂𝙂𝙀𝙍](https://t.me/swaggerkarthik)**\n\n"
         TEXT += f"» **ʙᴏᴛ ꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.2`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://telegra.ph/file/0de98f5fe87df8e6b514d.jpg",
+                "https://te.legra.ph/file/89d14ee39f2156bab3989.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
