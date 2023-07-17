@@ -39,8 +39,8 @@ async def logs(legend):
         await asyncio.sleep(1)
         await fetch.delete()
         logfile = open("sWAGGER SPAM.txt", "w")
-        logfile.write("⚡ HATERS KI GAND ME 52 GAJJ KA LUND"
-       ⚡ [ BotSpam Logs ]\n\n" + logs)
+        logfile.write("⚡ HATERS KI GAND ME 52 GAJJ KA LUND⚡"
+        [ BotSpam Logs ]\n\n" + logs)
         logfile.close()
         await MK1.send_file(legend.chat_id, "swagger.txt", caption=f"⚡ ​SWAGGERKARTHIK ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
     else:
